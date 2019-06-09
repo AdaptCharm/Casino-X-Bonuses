@@ -1,13 +1,16 @@
 $(document).ready(() => {
 	'use strict';
 	
-	const tilt = $('.js-tilt').tilt();
+	const elems = document.querySelectorAll('.tilt');
 	
 	// Tilt.js
 	if ($(window).width() < 1024) {
-	  tilt.methods.destroy.call(tilt);
+	  elems.universalTilt.destroy();
 	} else {
-	  tilt.tilt();
+	  const universalTilt = UniversalTilt.init(elems, {
+	    speed: 400,
+	    scale: 1.1
+	  });
 	}
 
 	// The function actually applying the offset
