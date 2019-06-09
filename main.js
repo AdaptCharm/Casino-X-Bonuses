@@ -1,5 +1,14 @@
 $(document).ready(() => {
 	'use strict';
+	
+	const tilt = $('.js-tilt').tilt();
+	
+	// Tilt.js
+	if ($(window).width() < 1024) {
+	  tilt.methods.destroy.call(tilt);
+	} else {
+	  tilt.tilt();
+	}
 
 	// The function actually applying the offset
 	function offsetAnchor() {
