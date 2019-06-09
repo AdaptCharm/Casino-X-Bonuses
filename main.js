@@ -40,9 +40,6 @@ $(document).ready(() => {
 		$( ".expand" ).removeClass( "active" );
 	});
 
-	// Replace feather svgs
-	feather.replace()
-
 	$(window).on({
 		"load resize": () => {
 			// Line element beneath active menu item
