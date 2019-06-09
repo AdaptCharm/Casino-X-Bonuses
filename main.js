@@ -1,13 +1,11 @@
 $(document).ready(() => {
 	'use strict';
 	
-	const elems = document.querySelectorAll('.tilt');
-	
 	// Tilt.js
 	if ($(window).width() < 1024) {
-	  elems.universalTilt.destroy();
+	  $('.tilt').universalTilt.destroy();
 	} else {
-	  const universalTilt = UniversalTilt.init(elems, {
+	  $('.tilt').universalTilt({
 	    speed: 400,
 	    scale: 1.1
 	  });
