@@ -14,7 +14,9 @@ $(document).ready(() => {
 	// The function actually applying the offset
 	function offsetAnchor() {
 	  if (location.hash.length !== 0) {
-	    window.scrollTo(window.scrollX, window.scrollY - 25);
+	    window.scrollTo(window.scrollX, window.scrollY - 25).animate({
+          scrollTop: target.offset().top
+        }, 1000);
 	  }
 	}
 
