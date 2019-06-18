@@ -1,22 +1,36 @@
 $(document).ready(() => {
 	'use strict';
-	
-	// Tilt.js
-	if ($(window).width() < 1024) {
-	  $('.tilt').universalTilt.destroy();
-	} else {
-	  $('.tilt').universalTilt({
-	    speed: 400,
-	    scale: 1.1
+
+	// Countdown 2 seconds delay
+	setTimeout(() => {
+		$( ".notification-wrap" ).css("display", "flex")
+	}, 2000)
+
+	// Countdown close
+	$(".exit").on("click", function(e) {
+		$( ".notification-wrap" ).hide()
+	});
+
+	// Countdown timer
+	function ProgressCountdown(timeleft, bar) {
+	  return new Promise((resolve, reject) => {
+	    var countdownTimer = setInterval(() => {
+	      timeleft--;
+	      document.getElementById(bar).value = timeleft;
+	      if (timeleft <= 0) {
+					$( ".notification-wrap" ).hide()
+	        clearInterval(countdownTimer);
+	        resolve(true);
+	      }
+	    }, 1000);
 	  });
 	}
+	ProgressCountdown(10, 'pageBeginCountdown');
 
 	// The function actually applying the offset
 	function offsetAnchor() {
 	  if (location.hash.length !== 0) {
-	    window.scrollTo(window.scrollX, window.scrollY - 25).animate({
-          scrollTop: target.offset().top
-        }, 1000);
+	    window.scrollTo(window.scrollX, window.scrollY - 25)
 	  }
 	}
 
@@ -33,10 +47,15 @@ $(document).ready(() => {
 	window.setTimeout(offsetAnchor, 0);
 
 	// Make casino item clickable
-	$(document.body).on('click', '.item[data-clickable=true]', (e) => {
-	  let href = $(e.currentTarget).data('href');
-	  window.location = href;
-	});
+	const element = document.querySelectorAll('.item[data-clickable=true]')
+	if (element) {
+		element.forEach(function(el){
+			el.addEventListener('click', (e) => {
+					let href = $(e.currentTarget).data('href');
+					window.location = href;
+     	});
+  	});
+	}
 
 	// Open mobile menu
 	$(".navigation").on("show.bs.collapse", function(e) {
