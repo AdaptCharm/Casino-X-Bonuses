@@ -70,6 +70,8 @@ $(document).ready(() => {
 		$( ".light" ).removeClass( "active" );
 		$( ".expand" ).removeClass( "active" );
 	});
+	
+	feather.replace()
 
 	$(window).on({
 		"load resize": () => {
