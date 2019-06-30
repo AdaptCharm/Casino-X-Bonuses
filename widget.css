@@ -644,7 +644,7 @@
   left: auto;
   display: inline-block !important;
   border-right: 8px solid transparent;
-  border-top: 8px solid #FFFFFF;
+  border-top: 8px solid #252a32;
   border-left: 8px solid transparent;
   content: '';
 }
@@ -723,7 +723,7 @@
   border-radius: 4px;
   border: 0;
   background-color: red;
-  color: #fff;
+  color: #1c2127;
   font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   padding: 10px 5px 9px;
