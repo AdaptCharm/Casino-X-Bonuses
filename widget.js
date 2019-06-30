@@ -35,7 +35,7 @@
         callSuccessText: 'Thank you.<br>We are call you back soon.',
         items: [],
         iconsAnimationSpeed: 800,
-        theme: '#000000',
+        theme: 'linear-gradient(to right, #06f442 0%, #e1f339 100%)',
         themeColor: '#fff',
         callbackFormText: 'Please enter your phone number<br>and we call you back soon',
         closeIcon: '<svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Canvas" transform="translate(-4087 108)"><g id="Vector"><use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor"></use></g></g><defs><path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z"></path></defs></svg>',
