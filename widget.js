@@ -14,7 +14,7 @@
 	      }, 500)
 	    }, 5000)
 	  }, 100)
-  };
+	};
   function ArContactUs(element, options) {
     this._initialized = false;
     this.settings = null;
@@ -40,18 +40,18 @@
     ajaxUrl: 'server.php',
     action: 'callback',
     phonePlaceholder: '+X-XXX-XXX-XXXX',
-    callbackSubmitText: 'Waiting for call',
+    callbackSubmitText: 'Waiting for call...',
     reCaptcha: false,
     reCaptchaAction: 'callbackRequest',
     reCaptchaKey: '',
-    errorMessage: 'Connection error. Please try again.',
-    callProcessText: 'We are calling you to phone',
-    callSuccessText: 'Thank you.<br>We are call you back soon.',
+    errorMessage: 'Connection error. Please try again later.',
+    callProcessText: 'We are calling you at the moment.',
+    callSuccessText: 'Thank you.<br>We will call you back soon.',
     items: [],
     iconsAnimationSpeed: 800,
     theme: 'linear-gradient(to right, #06f442 0%, #e1f339 100%)',
     themeColor: '#8bf30b',
-    callbackFormText: 'Please enter your phone number<br>and we call you back soon',
+    callbackFormText: 'Please enter your phone number<br>and we will call you back soon.',
     closeIcon: '<svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Canvas" transform="translate(-4087 108)"><g id="Vector"><use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor"></use></g></g><defs><path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z"></path></defs></svg>',
     callbackStateIcon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>'
   };
