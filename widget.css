@@ -374,7 +374,7 @@
 }
 .arcontactus-widget .messangers-block,
 .arcontactus-widget .arcontactus-prompt {
-  background: #FFFFFF;
+  background: #252a32;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   width: 235px;
   background-repeat: no-repeat;
@@ -525,7 +525,7 @@
   text-decoration: none;
 }
 .arcontactus-widget .messanger:hover {
-  background-color: #EEEEEE;
+  background-color: #1c2127;
 }
 .arcontactus-widget .messanger:before {
   background-repeat: no-repeat;
@@ -586,9 +586,9 @@
 }
 .arcontactus-widget .messanger p {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
   padding: 0;
 }
 .arcontactus-widget .callback-countdown-block {
