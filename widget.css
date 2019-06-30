@@ -356,7 +356,7 @@
   margin-left: 0;
 }
 .arcontactus-widget .arcontactus-close {
-  color: #FFFFFF;
+  color: #252a32;
 }
 .arcontactus-widget .arcontactus-close svg {
   -webkit-transform: rotate(180deg) scale(0);
@@ -415,7 +415,7 @@
   left: auto;
   display: inline-block !important;
   border-right: 8px solid transparent;
-  border-top: 8px solid #FFFFFF;
+  border-top: 8px solid #252a32;
   border-left: 8px solid transparent;
   content: '';
 }
@@ -427,7 +427,7 @@
 }
 .arcontactus-widget .arcontactus-prompt {
   color: #787878;
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 18px;
   width: auto;
@@ -592,7 +592,7 @@
   padding: 0;
 }
 .arcontactus-widget .callback-countdown-block {
-  background: #FFFFFF;
+  background: #252a32;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   width: 410px;
   height: 150px;
@@ -630,7 +630,7 @@
 }
 .arcontactus-widget .callback-countdown-block .callback-countdown-block-timer_timer {
   font-size: 38px;
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
 }
 .arcontactus-widget .callback-countdown-block.display-flex {
   display: -webkit-box;
@@ -649,7 +649,7 @@
   content: '';
 }
 .arcontactus-widget .callback-countdown-block .callback-countdown-block-phone {
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 16px;
   padding-left: 10px;
@@ -707,7 +707,7 @@
   align-items: center;
 }
 .arcontactus-widget .callback-countdown-block .callback-countdown-block-phone .callback-countdown-block-form-group input[type=tel] {
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 16px;
   border-radius: 4px;
@@ -724,7 +724,7 @@
   border: 0;
   background-color: red;
   color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   padding: 10px 5px 9px;
   cursor: pointer;
@@ -743,7 +743,7 @@
   display: none;
 }
 .arcontactus-widget .callback-countdown-block .callback-countdown-block-sorry p {
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
@@ -772,7 +772,7 @@
   display: none;
 }
 .arcontactus-widget .callback-countdown-block .callback-countdown-block-timer p {
-  font-family: Arial, sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
