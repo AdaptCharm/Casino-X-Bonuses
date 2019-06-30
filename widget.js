@@ -44,7 +44,8 @@
     reCaptcha: false,
     reCaptchaAction: 'callbackRequest',
     reCaptchaKey: '',
-    errorMessage: 'Connection error. Please try again later.',
+    //errorMessage: 'Connection error. Please try again later.',
+    errorMessage: 'Ability to request call coming soon.', // Temporary
     callProcessText: 'We are calling you at the moment.',
     callSuccessText: 'Thank you.<br>We will call you back soon.',
     items: [],
